@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    background-color: #F1F4F8;
+    font-family: "Montserrat";
+}
+
+.app {
+    background-color: white;
+    width: 400px;
+    height: 664px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 0px 19px -11px rgba(0,0,0,0.75);
+}
+
+.caption {
+    background-color: #d4f9f5;
+    width: 400px;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.caption > h3 {
+    text-align: center;
+    line-height: 60px;
+    color: #424242;
+}
+
+.menu {
+    text-align: center;
+}
+
+button, input {
+    outline: none;
+    border: none;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #d4f9f5;
+    font-weight: bold;
+    color: #424242;
+    margin: 20px 0 0 0;
+    height: 48px;
+    transition: .1s ease;
+}
+
+button:active {
+
+    /* box-shadow: 0px 0px 19px -11px rgba(0,0,0,0.75); */
+    
+    background-color: #c9eeeb;
+}
+
+input {
+    background-color: #F1F4F8;
+    width: 170px;
+    height: 48px;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+input:last-child {
+    margin: 0;
+}
+
+.menu > .clear-button {
+    width: 90%;   
+}
+
+.create-button {
+    width: 360px;
+}
+
+form {
+    margin-top: 20px;
+    width: 360px;
+    text-align: left;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+.grid {
+    width: 360px;
+    height: 360px;
+    background-color: #F1F4F8;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.grid-element {
+    float: left;
+}
+
+.grid-element:hover {
+    background-color: rgb(198, 199, 201);
+}
+
+.drawn {
+    background-color: grey;
+}
